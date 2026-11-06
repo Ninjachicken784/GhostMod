@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "ghostmod",
+	"version": "${version}",
+	"name": "Ghost Mod",
+	"description": "Ghost efficiency tracker for Hypixel SkyBlock: kills/h, misses, longer paths, a line to the nearest Ghost, and a player + inventory display.",
+	"authors": [
+		"Adrian"
+	],
+	"contact": {
+		"sources": "https://github.com/Ninjachicken784/Ghostmod"
+	},
+	"license": "All-Rights-Reserved",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.ghostmod.GhostMod"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
